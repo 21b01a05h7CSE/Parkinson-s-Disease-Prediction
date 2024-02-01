@@ -6,7 +6,7 @@ Parkinson's disease is a neurodegenerative disorder that affects millions of peo
 # Voice features: 
 Jitter, shimmer, and other voice measurements related to speech abnormalities.
 # Clinical information: 
-Age, gender, medical history, and motor assessments like UPDRS scores.
+Age, gender and motor assessments like UPDRS scores.
 # Other modalities: 
 Sensor data, imaging data (if available), etc.
 By developing this model, we hope to contribute to early diagnosis and improved treatment outcomes for Parkinson's patients.
