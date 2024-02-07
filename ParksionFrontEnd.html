@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Parkinson's Disease Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Predict Parkinson's Disease</h1>
+            <form id="parkinsonForm" class="form-container">
+                <div class="form-column">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="mdvpFo">MDVP:Fo(Hz):</label>
+                    <input type="text" id="mdvpFo" name="mdvpFo" placeholder="Enter MDVP:Fo(Hz)" required>
+
+                    <label for="mdvpFhi">MDVP:Fhi(Hz):</label>
+                    <input type="text" id="mdvpFhi" name="mdvpFhi" placeholder="Enter MDVP:Fhi(Hz)" required>
+
+                    <label for="mdvpFlo">MDVP:Flo(Hz):</label>
+                    <input type="text" id="mdvpFlo" name="mdvpFlo" placeholder="Enter MDVP:Flo(Hz)" required>
+
+                    <label for="mdvpJitter">MDVP:Jitter(%):</label>
+                    <input type="text" id="mdvpJitter" name="mdvpJitter" placeholder="Enter MDVP:Jitter(%)" required>
+
+                    <label for="mdvpJitterAbs">MDVP:Jitter(Abs):</label>
+                    <input type="text" id="mdvpJitterAbs" name="mdvpJitterAbs" placeholder="Enter MDVP:Jitter(Abs)" required>
+                </div>
+
+                <div class="form-column">
+                    <label for="mdvpRAP">   MDVP:RAP:</label>
+                    <input type="text" id="mdvpRAP" name="mdvpRAP" placeholder="Enter MDVP:RAP" required>
+
+                    <label for="mdvpPPQ">   MDVP:PPQ:</label>
+                    <input type="text" id="mdvpPPQ" name="mdvpPPQ" placeholder="Enter MDVP:PPQ" required>
+
+                    <label for="jitterDDP"> Jitter:DDP:</label>
+                    <input type="text" id="jitterDDP" name="jitterDDP" placeholder="Enter Jitter:DDP" required>
+
+                    <label for="mdvpShimmer">   MDVP:Shimmer:</label>
+                    <input type="text" id="mdvpShimmer" name="mdvpShimmer" placeholder="Enter MDVP:Shimmer" required>
+
+                    <label for="mdvpShimmerdB"> MDVP:Shimmer(dB):</label>
+                    <input type="text" id="mdvpShimmerdB" name="mdvpShimmerdB" placeholder="Enter MDVP:Shimmer(dB)" required>
+
+                    <label for="shimmerAPQ3">   Shimmer:APQ3:</label>
+                    <input type="text" id="shimmerAPQ3" name="shimmerAPQ3" placeholder="Enter Shimmer:APQ3" required>
+                </div>
+
+                <div class="form-column">
+                    <label for="shimmerAPQ5">   Shimmer:APQ5:</label>
+                    <input type="text" id="shimmerAPQ5" name="shimmerAPQ5" placeholder="Enter Shimmer:APQ5" required>
+
+                    <label for="mdvpAPQ">   MDVP:APQ:</label>
+                    <input type="text" id="mdvpAPQ" name="mdvpAPQ" placeholder="Enter MDVP:APQ" required>
+
+                    <label for="shimmerDDA">    Shimmer:DDA:</label>
+                    <input type="text" id="shimmerDDA" name="shimmerDDA" placeholder="Enter Shimmer:DDA" required>
+
+                    <label for="NHR">   NHR:</label>
+                    <input type="text" id="NHR" name="NHR" placeholder="Enter NHR" required>
+
+                    <label for="HNR">   HNR:</label>
+                    <input type="text" id="HNR" name="HNR" placeholder="Enter HNR" required>
+
+                    <label for="status">    Status:</label>
+                    <input type="text" id="status" name="status" placeholder="Enter Status" required>
+                </div>
+
+                <div class="form-column">
+                    <label for="RPDE">  RPDE:</label>
+                    <input type="text" id="RPDE" name="RPDE" placeholder="Enter RPDE" required>
+
+                    <label for="DFA">   DFA:</label>
+                    <input type="text" id="DFA" name="DFA" placeholder="Enter DFA" required>
+
+                    <label for="spread1">   Spread1:</label>
+                    <input type="text" id="spread1" name="spread1" placeholder="Enter spread1" required>
+
+                    <label for="spread2">   Spread2:</label>
+                    <input type="text" id="spread2" name="spread2" placeholder="Enter spread2" required>
+
+                    <label for="D2">    D2:</label>
+                    <input type="text" id="D2" name="D2" placeholder="Enter D2" required>
+
+                    <label for="PPE">   PPE:</label>
+                    <input type="text" id="PPE" name="PPE" placeholder="Enter PPE" required>
+                </div>
+            </form>
+        </div>
+    </div>
+    <center><button type="submit">Submit</button></center>
+
+    <script src="script.js"></script>
+</body>
+</html>
